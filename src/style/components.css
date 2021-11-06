@@ -1,0 +1,40 @@
+.login, .register{
+    grid-column: 1;
+    justify-self: end;
+    text-align: end;
+    margin: 5px;
+    max-width: 250px;
+}
+
+.header{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    grid-column: 1/end;
+    width: 97vw;
+    justify-self: end;
+    text-align: end;
+    margin: 5px;
+}
+.activityContainer, .routineContainer {
+    grid-column: 1/end;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.activities, .routines {
+    background-color: rgb(240, 115, 95);
+    columns: 1/ end;
+    height: 30vh;
+    width: 25vw;
+    margin: 1vh;
+    padding: 2vh;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+    border-radius: 3vh;
+}
+
+.routineActivities {
+    outline: solid black 3px;
+}
